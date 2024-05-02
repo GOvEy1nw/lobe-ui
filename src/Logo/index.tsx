@@ -4,13 +4,11 @@ import { useTheme } from 'antd-style';
 import { type ReactNode, memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
-import { useCdnFn } from '@/ConfigProvider';
 import Img from '@/Img';
 import { DivProps } from '@/types';
 
 import Divider from './Divider';
 import LogoHighContrast from './LogoHighContrast';
-import LogoText from './LogoText';
 import { LOGO_3D, LOGO_FLAT, LOGO_TEXT, useStyles } from './style';
 
 export interface LogoProps extends DivProps {
@@ -31,7 +29,6 @@ export interface LogoProps extends DivProps {
 }
 
 const Logo = memo<LogoProps>(({ type = '3d', size = 32, style, extra, className, ...rest }) => {
-  const genCdnUrl = useCdnFn();
   const theme = useTheme();
   const { styles } = useStyles();
   let logoComponent: ReactNode;
@@ -62,8 +59,8 @@ const Logo = memo<LogoProps>(({ type = '3d', size = 32, style, extra, className,
     case 'combine': {
       logoComponent = (
         <>
-          <Img alt="lobehub" height={size} src={genCdnUrl(LOGO_3D)} width={size} />
-          <LogoText style={{ height: size, marginLeft: Math.round(size / 4), width: 'auto' }} />
+          <Img alt="lobehub" height={size} src={LOGO_3D.path} width={size} />
+          <Img alt="lobehub" height={size} src={LOGO_TEXT.path} style={style} width={size} />
         </>
       );
       break;
