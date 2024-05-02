@@ -1,5 +1,5 @@
-import { type ActionIconGroupProps } from '@lobehub/ui';
-import { MetaData } from '@lobehub/ui/types/meta';
+import { type ActionIconGroupProps } from '@govey1nw/lobehub-ui';
+import { MetaData } from '@govey1nw/lobehub-ui/types/meta';
 import { Copy, Edit, RotateCw, Trash } from 'lucide-react';
 
 export const avatar: MetaData = {

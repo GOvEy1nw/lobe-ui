@@ -1,4 +1,4 @@
-import { Layout } from '@lobehub/ui';
+import { Layout } from '@govey1nw/lobehub-ui';
 import { createStyles } from 'antd-style';
 import { Flexbox } from 'react-layout-kit';
 

@@ -54,7 +54,7 @@ const themeConfig = {
 
 export default defineConfig({
   alias: {
-    '@lobehub/ui/mdx': resolve(__dirname, './src/mdx'),
+    '@govey1nw/lobehub-ui/mdx': resolve(__dirname, './src/mdx'),
   },
   apiParser: isProduction ? {} : false,
   base: '/',

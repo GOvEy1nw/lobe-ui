@@ -1,10 +1,16 @@
-import { Snippet, SnippetProps, StoryBook, useControls, useCreateStore } from '@lobehub/ui';
+import {
+  Snippet,
+  SnippetProps,
+  StoryBook,
+  useControls,
+  useCreateStore,
+} from '@govey1nw/lobehub-ui';
 
 export default () => {
   const store = useCreateStore();
   const control: SnippetProps | any = useControls(
     {
-      children: 'pnpm install @lobehub/ui',
+      children: 'pnpm install @govey1nw/lobehub-ui',
       copyable: true,
       language: 'sh',
       spotlight: false,

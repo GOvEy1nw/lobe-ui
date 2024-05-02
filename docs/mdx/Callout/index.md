@@ -3,7 +3,7 @@ nav: Mdx
 group: Built-ins
 title: Callout
 apiHeader:
-  pkg: '@lobehub/ui/mdx'
+  pkg: '@govey1nw/lobehub-ui/mdx'
   docUrl: 'https://github.com/lobehub/lobe-ui/tree/master/docs/mdx/Callout/index.md'
   sourceUrl: 'https://github.com/lobehub/lobe-ui/tree/master/src/mdx/Callout/index.tsx'
 ---

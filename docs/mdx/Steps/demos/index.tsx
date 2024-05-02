@@ -1,5 +1,5 @@
-import { Typography } from '@lobehub/ui';
-import { Steps } from '@lobehub/ui/mdx';
+import { Typography } from '@govey1nw/lobehub-ui';
+import { Steps } from '@govey1nw/lobehub-ui/mdx';
 
 export default () => (
   <Typography>

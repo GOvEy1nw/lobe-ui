@@ -4,7 +4,7 @@ import {
   StoryBook,
   useControls,
   useCreateStore,
-} from '@lobehub/ui';
+} from '@govey1nw/lobehub-ui';
 
 import { dropdownMenu, items } from './data';
 

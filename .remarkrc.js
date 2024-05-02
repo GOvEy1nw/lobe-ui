@@ -1,1 +1,1 @@
-module.exports = require('@lobehub/lint').remarklint;
+module.exports = require('@govey1nw/lobehub-lint').remarklint;

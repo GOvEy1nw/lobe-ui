@@ -4,7 +4,7 @@ import {
   MobileChatInputArea,
   MobileChatSendButton,
   TokenTag,
-} from '@lobehub/ui';
+} from '@govey1nw/lobehub-ui';
 import { Eraser, Languages } from 'lucide-react';
 import { Flexbox } from 'react-layout-kit';
 

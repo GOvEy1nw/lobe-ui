@@ -1,4 +1,10 @@
-import { Markdown, MarkdownProps, StoryBook, useControls, useCreateStore } from '@lobehub/ui';
+import {
+  Markdown,
+  MarkdownProps,
+  StoryBook,
+  useControls,
+  useCreateStore,
+} from '@govey1nw/lobehub-ui';
 
 import { content2 } from './data';
 

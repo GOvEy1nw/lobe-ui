@@ -11,7 +11,7 @@ import { DivProps } from '@/types';
 import Divider from './Divider';
 import LogoHighContrast from './LogoHighContrast';
 import LogoText from './LogoText';
-import { LOGO_3D, LOGO_FLAT, useStyles } from './style';
+import { LOGO_3D, LOGO_FLAT, LOGO_TEXT, useStyles } from './style';
 
 export interface LogoProps extends DivProps {
   /**
@@ -39,20 +39,13 @@ const Logo = memo<LogoProps>(({ type = '3d', size = 32, style, extra, className,
   switch (type) {
     case '3d': {
       logoComponent = (
-        <Img
-          alt="lobehub"
-          height={size}
-          src={genCdnUrl(LOGO_3D)}
-          style={style}
-          width={size}
-          {...rest}
-        />
+        <Img alt="lobehub" height={size} src={LOGO_3D.path} style={style} width={size} {...rest} />
       );
       break;
     }
     case 'flat': {
       logoComponent = (
-        <Img alt="lobehub" height={size} src={genCdnUrl(LOGO_FLAT)} style={style} width={size} />
+        <Img alt="lobehub" height={size} src={LOGO_FLAT.path} style={style} width={size} />
       );
       break;
     }
@@ -62,13 +55,7 @@ const Logo = memo<LogoProps>(({ type = '3d', size = 32, style, extra, className,
     }
     case 'text': {
       logoComponent = (
-        <LogoText
-          className={className}
-          height={size}
-          style={style}
-          width={size * 2.9375}
-          {...rest}
-        />
+        <Img alt="lobehub" height={size} src={LOGO_TEXT.path} style={style} width={size} />
       );
       break;
     }

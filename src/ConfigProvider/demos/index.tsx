@@ -1,4 +1,4 @@
-import { ConfigProvider, Logo } from '@lobehub/ui';
+import { ConfigProvider, Logo } from '@govey1nw/lobehub-ui';
 
 export default () => {
   return (

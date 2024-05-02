@@ -1,4 +1,4 @@
-import { SpotlightCard } from '@lobehub/ui';
+import { SpotlightCard } from '@govey1nw/lobehub-ui';
 import { Avatar } from 'antd';
 import { Flexbox } from 'react-layout-kit';
 

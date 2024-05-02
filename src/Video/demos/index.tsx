@@ -1,4 +1,4 @@
-import { Video } from '@lobehub/ui';
+import { Video } from '@govey1nw/lobehub-ui';
 
 export default () => {
   return (

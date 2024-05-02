@@ -1,14 +1,21 @@
 import { createStyles } from 'antd-style';
 
 export const LOGO_3D = {
-  path: 'assets/logo-3d.webp',
-  pkg: '@lobehub/assets-logo',
-  version: '1.2.0',
+  path: './assets/logo-3d.webp', // Relative path to the logo file
+  pkg: '', // No external package
+  version: '', // No version
 };
+
 export const LOGO_FLAT = {
-  path: 'assets/logo-flat.svg',
-  pkg: '@lobehub/assets-logo',
-  version: '1.2.0',
+  path: './assets/logo-flat.svg', // Relative path to the logo file
+  pkg: '', // No external package
+  version: '', // No version
+};
+
+export const LOGO_TEXT = {
+  path: './assets/rais-logo.svg', // Relative path to the logo file
+  pkg: '', // No external package
+  version: '', // No version
 };
 
 export const useStyles = createStyles(({ css }) => {

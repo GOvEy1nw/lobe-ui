@@ -1,5 +1,5 @@
-import { Typography } from '@lobehub/ui';
-import { File, FileTree, Folder } from '@lobehub/ui/mdx';
+import { Typography } from '@govey1nw/lobehub-ui';
+import { File, FileTree, Folder } from '@govey1nw/lobehub-ui/mdx';
 
 export default () => (
   <Typography>

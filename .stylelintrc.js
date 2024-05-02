@@ -1,5 +1,5 @@
 module.exports = {
-  extends: require('@lobehub/lint').stylelint,
+  extends: require('@govey1nw/lobehub-lint').stylelint,
   plugins: ['stylelint-use-logical-spec'],
   rules: {
     'liberty/use-logical-spec': ['always', { except: ['float', /^((min|max)-)?(height|width)$/i] }],

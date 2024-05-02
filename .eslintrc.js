@@ -1,1 +1,1 @@
-module.exports = require('@lobehub/lint').eslint;
+module.exports = require('@govey1nw/lobehub-lint').eslint;

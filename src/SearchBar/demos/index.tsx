@@ -1,4 +1,10 @@
-import { SearchBar, SearchBarProps, StoryBook, useControls, useCreateStore } from '@lobehub/ui';
+import {
+  SearchBar,
+  SearchBarProps,
+  StoryBook,
+  useControls,
+  useCreateStore,
+} from '@govey1nw/lobehub-ui';
 
 export default () => {
   const store = useCreateStore();

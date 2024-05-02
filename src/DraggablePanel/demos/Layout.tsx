@@ -4,7 +4,7 @@ import {
   DraggablePanelContainer,
   DraggablePanelFooter,
   DraggablePanelHeader,
-} from '@lobehub/ui';
+} from '@govey1nw/lobehub-ui';
 import { useState } from 'react';
 import { Flexbox } from 'react-layout-kit';
 

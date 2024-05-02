@@ -1,4 +1,10 @@
-import { ChatHeader, ChatHeaderProps, StoryBook, useControls, useCreateStore } from '@lobehub/ui';
+import {
+  ChatHeader,
+  ChatHeaderProps,
+  StoryBook,
+  useControls,
+  useCreateStore,
+} from '@govey1nw/lobehub-ui';
 
 export default () => {
   const store = useCreateStore();

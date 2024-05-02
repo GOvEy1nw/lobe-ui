@@ -1,5 +1,5 @@
-import { StoryBook, Typography, useControls, useCreateStore } from '@lobehub/ui';
-import { Callout } from '@lobehub/ui/mdx';
+import { StoryBook, Typography, useControls, useCreateStore } from '@govey1nw/lobehub-ui';
+import { Callout } from '@govey1nw/lobehub-ui/mdx';
 
 export default () => {
   const store = useCreateStore();

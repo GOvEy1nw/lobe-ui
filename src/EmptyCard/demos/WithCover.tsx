@@ -1,4 +1,4 @@
-import { EmptyCard } from '@lobehub/ui';
+import { EmptyCard } from '@govey1nw/lobehub-ui';
 
 export default () => {
   return (

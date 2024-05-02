@@ -1,4 +1,4 @@
-import { BackBottom } from '@lobehub/ui';
+import { BackBottom } from '@govey1nw/lobehub-ui';
 import { useRef } from 'react';
 
 export default () => {

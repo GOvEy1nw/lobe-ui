@@ -1,4 +1,4 @@
-import { EditableMessageList } from '@lobehub/ui';
+import { EditableMessageList } from '@govey1nw/lobehub-ui';
 
 import { data } from './data';
 
