@@ -1,7 +1,7 @@
 import { createStyles } from 'antd-style';
 
 export const LOGO_3D = {
-  path: './assets/logo-3d.webp', // Relative path to the logo file
+  path: './assets/rais-logo.svg', // Relative path to the logo file
   pkg: '', // No external package
   version: '', // No version
 };
