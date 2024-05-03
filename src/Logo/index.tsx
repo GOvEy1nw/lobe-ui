@@ -35,32 +35,26 @@ const Logo = memo<LogoProps>(({ type = '3d', size = 32, style, extra, className,
 
   switch (type) {
     case '3d': {
-      logoComponent = (
-        <Img alt="lobehub" height={size} src={LOGO_3D.path} style={style} width={size} {...rest} />
-      );
+      logoComponent = <Img alt="lobehub" src={LOGO_3D.path} style={style} width={size} {...rest} />;
       break;
     }
     case 'flat': {
-      logoComponent = (
-        <Img alt="lobehub" height={size} src={LOGO_FLAT.path} style={style} width={size} />
-      );
+      logoComponent = <Img alt="lobehub" src={LOGO_FLAT.path} style={style} width={size} />;
       break;
     }
     case 'high-contrast': {
-      logoComponent = <LogoHighContrast height={size} style={style} width={size} {...rest} />;
+      logoComponent = <LogoHighContrast style={style} width={size} {...rest} />;
       break;
     }
     case 'text': {
-      logoComponent = (
-        <Img alt="lobehub" height={size} src={LOGO_TEXT.path} style={style} width={size} />
-      );
+      logoComponent = <Img alt="lobehub" src={LOGO_TEXT.path} style={style} width={size} />;
       break;
     }
     case 'combine': {
       logoComponent = (
         <>
-          <Img alt="lobehub" height={size} src={LOGO_3D.path} width={size} />
-          <Img alt="lobehub" height={size} src={LOGO_TEXT.path} style={style} width={size} />
+          <Img alt="lobehub" src={LOGO_3D.path} width={size} />
+          <Img alt="lobehub" src={LOGO_TEXT.path} style={style} width={size} />
         </>
       );
       break;
