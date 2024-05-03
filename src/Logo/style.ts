@@ -7,13 +7,13 @@ export const LOGO_3D = {
 };
 
 export const LOGO_FLAT = {
-  path: './assets/logo-flat.svg', // Relative path to the logo file
+  path: './assets/rais-icon.svg', // Relative path to the logo file
   pkg: '', // No external package
   version: '', // No version
 };
 
 export const LOGO_TEXT = {
-  path: './assets/rais-logo.svg', // Relative path to the logo file
+  path: './assets/rais-logotext.svg', // Relative path to the logo file
   pkg: '', // No external package
   version: '', // No version
 };
