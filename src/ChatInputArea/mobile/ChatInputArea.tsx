@@ -24,6 +24,7 @@ import ChatInputAreaInner, { type ChatInputAreaInnerProps } from '../ChatInputAr
 const useStyles = createStyles(({ css, token }) => {
   return {
     container: css`
+      flex: none;
       padding-block: 12px 12px;
       background: ${token.colorFillQuaternary};
       border-block-start: 1px solid ${rgba(token.colorBorder, 0.25)};
@@ -31,7 +32,6 @@ const useStyles = createStyles(({ css, token }) => {
     expand: css`
       position: absolute;
       height: 100%;
-      background: ${token.colorBgLayout};
     `,
     expandButton: css`
       position: absolute;
@@ -114,50 +114,46 @@ const MobileChatInputArea = forwardRef<TextAreaRef, MobileChatInputAreaProps>(
     const showAddons = !expand && !isFocused;
 
     return (
-      <Flexbox>
+      <Flexbox
+        className={cx(styles.container, expand && styles.expand, className)}
+        gap={12}
+        style={style}
+      >
+        {topAddons && <Flexbox style={showAddons ? {} : { display: 'none' }}>{topAddons}</Flexbox>}
         <Flexbox
-          className={cx(styles.container, expand && styles.expand, className)}
-          gap={12}
-          style={style}
+          className={cx(expand && styles.expand)}
+          ref={containerRef}
+          style={{ position: 'relative' }}
         >
-          {topAddons && (
-            <Flexbox style={showAddons ? {} : { display: 'none' }}>{topAddons}</Flexbox>
+          {showFullscreen && (
+            <ActionIcon
+              active
+              className={styles.expandButton}
+              icon={expand ? ChevronDown : ChevronUp}
+              onClick={() => setExpand?.(!expand)}
+              size={{ blockSize: 24, borderRadius: '50%', fontSize: 14 }}
+              style={expand ? { top: 6 } : {}}
+            />
           )}
-          <Flexbox
-            className={cx(expand && styles.expand)}
-            ref={containerRef}
-            style={{ position: 'relative' }}
-          >
-            {showFullscreen && (
-              <ActionIcon
-                active
-                className={styles.expandButton}
-                icon={expand ? ChevronDown : ChevronUp}
-                onClick={() => setExpand?.(!expand)}
-                size={{ blockSize: 24, borderRadius: '50%', fontSize: 14 }}
-                style={expand ? { top: 6 } : {}}
-              />
-            )}
-            <InnerContainer>
-              <ChatInputAreaInner
-                autoSize={expand ? false : { maxRows: 6, minRows: 0 }}
-                className={cx(expand && styles.expandTextArea)}
-                loading={loading}
-                onBlur={() => setIsFocused(false)}
-                onFocus={() => setIsFocused(true)}
-                onInput={onInput}
-                onSend={onSend}
-                ref={ref}
-                style={{ height: 36, paddingBlock: 6 }}
-                type={expand ? 'pure' : 'block'}
-                value={value}
-              />
-            </InnerContainer>
-          </Flexbox>
-          {bottomAddons && (
-            <Flexbox style={showAddons ? {} : { display: 'none' }}>{bottomAddons}</Flexbox>
-          )}
+          <InnerContainer>
+            <ChatInputAreaInner
+              autoSize={expand ? false : { maxRows: 6, minRows: 0 }}
+              className={cx(expand && styles.expandTextArea)}
+              loading={loading}
+              onBlur={() => setIsFocused(false)}
+              onFocus={() => setIsFocused(true)}
+              onInput={onInput}
+              onSend={onSend}
+              ref={ref}
+              style={{ height: 36, paddingBlock: 6 }}
+              type={expand ? 'pure' : 'block'}
+              value={value}
+            />
+          </InnerContainer>
         </Flexbox>
+        {bottomAddons && (
+          <Flexbox style={showAddons ? {} : { display: 'none' }}>{bottomAddons}</Flexbox>
+        )}
         {safeArea && !isFocused && <MobileSafeArea position={'bottom'} />}
       </Flexbox>
     );

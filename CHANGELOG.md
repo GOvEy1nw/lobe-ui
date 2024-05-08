@@ -2,6 +2,156 @@
 
 # Changelog
 
+### [Version 1.138.23](https://github.com/lobehub/lobe-ui/compare/v1.138.22...v1.138.23)
+
+<sup>Released on **2024-05-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Fullscreen in PWA.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix Fullscreen in PWA ([7ab1c94](https://github.com/lobehub/lobe-ui/commit/7ab1c94))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.138.22](https://github.com/lobehub/lobe-ui/compare/v1.138.21...v1.138.22)
+
+<sup>Released on **2024-05-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Drawer in pwa.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Drawer in pwa ([3c460b4](https://github.com/lobehub/lobe-ui/commit/3c460b4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.138.21](https://github.com/lobehub/lobe-ui/compare/v1.138.20...v1.138.21)
+
+<sup>Released on **2024-05-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Update ChatInputArea.tsx.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Update ChatInputArea.tsx ([365086d](https://github.com/lobehub/lobe-ui/commit/365086d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.138.20](https://github.com/lobehub/lobe-ui/compare/v1.138.19...v1.138.20)
+
+<sup>Released on **2024-05-07**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix MobileChatInputArea props type.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix MobileChatInputArea props type ([9c06084](https://github.com/lobehub/lobe-ui/commit/9c06084))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.138.19](https://github.com/lobehub/lobe-ui/compare/v1.138.18...v1.138.19)
+
+<sup>Released on **2024-05-07**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update MobileChatInputArea.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update MobileChatInputArea ([2f65475](https://github.com/lobehub/lobe-ui/commit/2f65475))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.138.18](https://github.com/lobehub/lobe-ui/compare/v1.138.17...v1.138.18)
+
+<sup>Released on **2024-05-07**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Mobile Compinents.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Mobile Compinents ([7e5b53c](https://github.com/lobehub/lobe-ui/commit/7e5b53c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.138.17](https://github.com/lobehub/lobe-ui/compare/v1.138.16...v1.138.17)
 
 <sup>Released on **2024-04-30**</sup>
