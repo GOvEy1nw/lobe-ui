@@ -28,7 +28,7 @@ export interface LogoProps extends DivProps {
   type?: '3d' | 'flat' | 'high-contrast' | 'text' | 'combine';
 }
 
-const Logo = memo<LogoProps>(({ type = '3d', size = 32, style, extra, className, ...rest }) => {
+const Logo = memo<LogoProps>(({ type = '3d', size = 36, style, extra, className, ...rest }) => {
   const theme = useTheme();
   const { styles } = useStyles();
   let logoComponent: ReactNode;
@@ -47,7 +47,7 @@ const Logo = memo<LogoProps>(({ type = '3d', size = 32, style, extra, className,
       break;
     }
     case 'text': {
-      logoComponent = <Img alt="lobehub" src={LOGO_TEXT.path} style={style} width={size} />;
+      logoComponent = <Img alt="lobehub" height={size} src={LOGO_TEXT.path} style={style} />;
       break;
     }
     case 'combine': {
