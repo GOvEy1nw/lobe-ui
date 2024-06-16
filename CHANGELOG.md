@@ -2,6 +2,415 @@
 
 # Changelog
 
+### [Version 1.142.4](https://github.com/lobehub/lobe-ui/compare/v1.142.3...v1.142.4)
+
+<sup>Released on **2024-06-10**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix type.
+
+#### 💄 Styles
+
+- **misc**: Tiny fix.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix type ([b4069a6](https://github.com/lobehub/lobe-ui/commit/b4069a6))
+
+#### Styles
+
+- **misc**: Tiny fix, closes [#165](https://github.com/lobehub/lobe-ui/issues/165) ([7646556](https://github.com/lobehub/lobe-ui/commit/7646556))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.142.3](https://github.com/lobehub/lobe-ui/compare/v1.142.2...v1.142.3)
+
+<sup>Released on **2024-06-09**</sup>
+
+#### 💄 Styles
+
+- **misc**: Expose `tooltip` overlayStyle prop.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Expose `tooltip` overlayStyle prop, closes [#162](https://github.com/lobehub/lobe-ui/issues/162) ([23a4fa0](https://github.com/lobehub/lobe-ui/commit/23a4fa0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.142.2](https://github.com/lobehub/lobe-ui/compare/v1.142.1...v1.142.2)
+
+<sup>Released on **2024-06-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Snippet warp, Fix type.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix Snippet warp ([f65b4e3](https://github.com/lobehub/lobe-ui/commit/f65b4e3))
+- **misc**: Fix type ([6897be9](https://github.com/lobehub/lobe-ui/commit/6897be9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.142.1](https://github.com/lobehub/lobe-ui/compare/v1.142.0...v1.142.1)
+
+<sup>Released on **2024-05-30**</sup>
+
+#### 💄 Styles
+
+- **ActionIconGroup**: Support size prop.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **ActionIconGroup**: Support size prop, closes [#159](https://github.com/lobehub/lobe-ui/issues/159) ([2d977fa](https://github.com/lobehub/lobe-ui/commit/2d977fa))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 1.142.0](https://github.com/lobehub/lobe-ui/compare/v1.141.3...v1.142.0)
+
+<sup>Released on **2024-05-30**</sup>
+
+#### ✨ Features
+
+- **ActionIconGroup**: Items support `disable` props.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **ActionIconGroup**: Items support `disable` props, closes [#158](https://github.com/lobehub/lobe-ui/issues/158) ([afb1472](https://github.com/lobehub/lobe-ui/commit/afb1472))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.141.3](https://github.com/lobehub/lobe-ui/compare/v1.141.2...v1.141.3)
+
+<sup>Released on **2024-05-27**</sup>
+
+#### 💄 Styles
+
+- **misc**: Display mobile `tooltip` correctly.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Display mobile `tooltip` correctly, closes [#151](https://github.com/lobehub/lobe-ui/issues/151) ([fa72237](https://github.com/lobehub/lobe-ui/commit/fa72237))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.141.2](https://github.com/lobehub/lobe-ui/compare/v1.141.1...v1.141.2)
+
+<sup>Released on **2024-05-25**</sup>
+
+#### 💄 Styles
+
+- **misc**: Change TokenTag fontfamily.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Change TokenTag fontfamily ([463ea49](https://github.com/lobehub/lobe-ui/commit/463ea49))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.141.1](https://github.com/lobehub/lobe-ui/compare/v1.141.0...v1.141.1)
+
+<sup>Released on **2024-05-24**</sup>
+
+#### 💄 Styles
+
+- **misc**: Format value in TokenTag.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Format value in TokenTag ([815cfef](https://github.com/lobehub/lobe-ui/commit/815cfef))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 1.141.0](https://github.com/lobehub/lobe-ui/compare/v1.140.3...v1.141.0)
+
+<sup>Released on **2024-05-24**</sup>
+
+#### ✨ Features
+
+- **misc**: Update FluentEmoji cdn.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Update FluentEmoji cdn ([69f0caa](https://github.com/lobehub/lobe-ui/commit/69f0caa))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.140.3](https://github.com/lobehub/lobe-ui/compare/v1.140.2...v1.140.3)
+
+<sup>Released on **2024-05-24**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor fluent emoji.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor fluent emoji ([6e09de5](https://github.com/lobehub/lobe-ui/commit/6e09de5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.140.2](https://github.com/lobehub/lobe-ui/compare/v1.140.1...v1.140.2)
+
+<sup>Released on **2024-05-24**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix Logo combine in safari.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix Logo combine in safari ([a4269b2](https://github.com/lobehub/lobe-ui/commit/a4269b2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.140.1](https://github.com/lobehub/lobe-ui/compare/v1.140.0...v1.140.1)
+
+<sup>Released on **2024-05-23**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix type.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix type ([6664213](https://github.com/lobehub/lobe-ui/commit/6664213))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 1.140.0](https://github.com/lobehub/lobe-ui/compare/v1.139.1...v1.140.0)
+
+<sup>Released on **2024-05-23**</sup>
+
+#### ✨ Features
+
+- **misc**: Update fluent emoji.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Update fluent emoji ([10da232](https://github.com/lobehub/lobe-ui/commit/10da232))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.139.1](https://github.com/lobehub/lobe-ui/compare/v1.139.0...v1.139.1)
+
+<sup>Released on **2024-05-22**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix image max width in markdown chat mode.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix image max width in markdown chat mode ([495b522](https://github.com/lobehub/lobe-ui/commit/495b522))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 1.139.0](https://github.com/lobehub/lobe-ui/compare/v1.138.26...v1.139.0)
+
+<sup>Released on **2024-05-22**</sup>
+
+#### ✨ Features
+
+- **misc**: Add enableResponsive to Modal.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add enableResponsive to Modal ([dfe0542](https://github.com/lobehub/lobe-ui/commit/dfe0542))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.138.26](https://github.com/lobehub/lobe-ui/compare/v1.138.25...v1.138.26)
+
+<sup>Released on **2024-05-20**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add ref to avatar.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Add ref to avatar ([7ebaf4d](https://github.com/lobehub/lobe-ui/commit/7ebaf4d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.138.25](https://github.com/lobehub/lobe-ui/compare/v1.138.24...v1.138.25)
 
 <sup>Released on **2024-05-15**</sup>
